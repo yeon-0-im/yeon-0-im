@@ -10,7 +10,8 @@
 * **Study:** 📚 Incheon National University & Sunrin Internet High School
 * **Global:** 🇪🇸 Exchange Student at University of Málaga (Spain)
 * **Focus:** Computer Vision / Media Art / Generative AI
-* **Achievements:** * LG Aimers LLM Compression Hackathon (Rank 151/628)
+* **Achievements:**
+  * LG Aimers LLM Compression Hackathon (Rank 151/628)
   * 3+ Awards in Data Analysis & AI SW Competitions
 
 <br>
@@ -54,19 +55,4 @@
 #### 🚯 서울시 생활쓰레기 무단투기 발생환경 분석 🏅 ![Status](https://img.shields.io/badge/Status-🏅%20분석%20및%20발표%20완료-9C27B0?style=flat-square)
 * **도메인:** 공공·재정 데이터 기반 통계 분석 및 GIS 공간 시각화 
 * **핵심 Task:** 자치구별 행정·공간 예산 집행 데이터 정제 및 피어슨 상관계수를 활용한 변인 통제 가설 검정. `QGIS` 좌표 매핑 기술을 이용해 CCTV 및 가로 쓰레기통 설치 공간 정보 분석 및 위험 구역 시각화 지표 개발.
-
-
-
-<br>
-
-
-## 👾 Stats
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/lg.svg" alt="LG" height="32" style="vertical-align: middle; filter: drop-shadow(0px 0px 1px rgba(0,0,0,0.1));"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/DeKrey/Country-Flags-and-Emblems/master/Emblems/Korea%2C%20South.svg" alt="대한민국정부" height="35" style="vertical-align: middle;"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/reese-k/reese-k/main/assets/ku_logo.svg" alt="고려대학교" height="35" style="vertical-align: middle;"/>
-</p>
-
 
