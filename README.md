@@ -1,5 +1,7 @@
 # Hi there 👋 Im Yeonoh 💻 :)
 🌱 I build things that excite me 🧩
+> *I always have a killer idea*
+> — Me
 
 <br>
 
