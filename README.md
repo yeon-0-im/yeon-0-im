@@ -3,6 +3,7 @@
 > *I always have a killer idea*
 > — Me
 
+
 <br>
 
 ## 📌 About Me
@@ -17,6 +18,8 @@
 <br>
 
 ## 🛠 Tech Stacks
+The technologies below range from core focus areas to tools I have hands-on experience using in various projects. I pride myself on my ability to quickly learn and apply any necessary technology to solve problems efficiently.
+(아래 기술들은 다양한 프로젝트를 진행하며 직접 사용해 본 경험이 있는 툴들입니다. 문제를 효율적으로 해결하기 위해 필요한 기술이라면 무엇이든 빠르게 배우고 적용하는 것에 자신 있습니다.)
 
 | **Category** | **Technologies** |
 |--------------|-------------------|
