@@ -41,7 +41,7 @@ The technologies below range from core focus areas to tools I have hands-on expe
 ## 🚀 Project Domains & Engineering Focus
 
 ### 🎞️ Computer Vision & Sequential AI
-#### ⛳️ [SwingNet V2: Video Action Detection & HPE](https://github.com/SwingNetV2/SwingNetV2)  ![Status](https://img.shields.io/badge/Status-🏅%20구현%20완료-4CAF50?style=flat-square)
+#### ⛳️ [SwingNet V2: Video Action Detection & HPE](https://github.com/yeon-0-im/SwingNetV2)  ![Status](https://img.shields.io/badge/Status-🏅%20구현%20완료-4CAF50?style=flat-square)
 * **도메인:** 골프 스포츠 동작 정량화 및 비디오 시계열 이미지 분석
 * **핵심 Task:** `CNN+LSTM` 구조를 `ConvLSTM` 기반 하이브리드 아키텍처로 고도화하여 비디오의 공간·시계열 정보 동시 학습. `PyTorch Profiler`를 활용한 리소스 부하 분석 및 병목 개선으로 하드웨어 처리 Latency 16% 개선.
 
