@@ -28,7 +28,7 @@ The technologies below range from core focus areas to tools I have hands-on expe
 | **![Backend](https://img.shields.io/badge/Backend-2C3E50?style=flat-square)** | ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=EAF4FB) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=EAF4FB) |
 | **![AI / Deep Learning](https://img.shields.io/badge/AI%20%2F%20Deep%20Learning-5C3EE8?style=flat-square)** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=EAF4FB) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=EAF4FB) ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=HuggingFace&logoColor=333333) ![ComfyUI](https://img.shields.io/badge/ComfyUI-f2ff5a?style=flat-square&logo=comfyui&logoColor=A182FF) |
 | **![Computer Vision / HPE](https://img.shields.io/badge/Computer%20Vision%20%2F%20HPE-7B68EE?style=flat-square)** | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=OpenCV&logoColor=EAF4FB) ![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=YOLO&logoColor=EAF4FB) ![MediaPipe](https://img.shields.io/badge/MediaPipe-00C7B7?style=flat-square&logo=Google&logoColor=EAF4FB) |
-| **![Image Processing](https://img.shields.io/badge/Image%20Processing-9370DB?style=flat-square)** | ![Albumentations](https://img.shields.io/badge/Albumentations-FF3F3F?style=flat-square&logoColor=EAF4FB) ![PIL](https://img.shields.io/badge/PIL-3776AB?style=flat-square&logo=Python&logoColor=EAF4FB) ![CVAT](https://img.shields.io/badge/CVAT-0071C5?style=flat-square&logo=CVAT&logoColor=EAF4FB) |
+| **![Image Processing](https://img.shields.io/badge/Image%20Processing-9370DB?style=flat-square)** | ![Albumentations](https://img.shields.io/badge/Albumentations-FF3F3F?style=flat-square&logoColor=EAF4FB) ![PIL](https://img.shields.io/badge/PIL-3776AB?style=flat-square&logo=Python&logoColor=EAF4FB) ![CVAT](https://img.shields.io/badge/CVAT-0071C5?style=flat-square&logo=CVAT&logoColor=EAF4FB) ![roboflow](https://img.shields.io/badge/roboflow-6706CE?style=flat-square&logo=roboflow&logoColor=EAF4FB)|
 | **![Data Pipeline & Analysis](https://img.shields.io/badge/Data%20Pipeline%20%26%20Analysis-2E8B57?style=flat-square)** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=NumPy&logoColor=EAF4FB) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=EAF4FB) ![PyTorch Profiler](https://img.shields.io/badge/PyTorch%20Profiler-EE4C2C?style=flat-square&logo=PyTorch&logoColor=EAF4FB) |
 | **![Spatial Data](https://img.shields.io/badge/3D%20%26%20Spatial%20Data-3CB371?style=flat-square)** | ![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=QGIS&logoColor=EAF4FB) |
 | **![Hardware & Modeling](https://img.shields.io/badge/Hardware%20%26%20Modeling-66CDAA?style=flat-square)** | ![ARDUINO](https://img.shields.io/badge/ARDUINO-00979D?style=flat-square&logo=Arduino&logoColor=EAF4FB) ![Rhinoceros](https://img.shields.io/badge/Rhinoceros-E61924?style=flat-square&logo=Rhinoceros&logoColor=EAF4FB) ![AutoCAD](https://img.shields.io/badge/AutoCAD-E5122E?style=flat-square&logo=Autodesk&logoColor=EAF4FB) |
@@ -39,6 +39,11 @@ The technologies below range from core focus areas to tools I have hands-on expe
 <br>
 
 ## 🚀 Project Domains & Engineering Focus
+
+### 🤖 Edge AI & Model Optimization
+#### 🚙 [CCBB: 교통사고 과실판단 AI 경량화](https://github.com/yeon-0-im/CCBB-Knowledge-Distillation) ![Status](https://img.shields.io/badge/Status-🥇%20구현%20완료-4CAF50?style=flat-square)
+* **도메인:** 블랙박스 영상 기반 멀티모달 교통사고 과실판단 AI의 엣지 디바이스(Jetson orin nano) 환경 경량화 및 추론 최적화
+* **핵심 Task:** 데이터 추가 학습이 불가능한 환경에서 `Knowledge Distillation`으로 교사 모델의 추론 결과를 pseudo-label을 통해 경량 학생 모델(FCOS + SlowOnly)로 학습 데이터를 자동 생성 및 학습. `ONNX`/`TensorRT` 양자화 파이프라인을 구축해 탐지 모델 66% 경량화(716MB→240MB), 분류 추론 53배 가속(18s→340ms)을 달성, Jetson에서 실시간 운영 가능한 수준 확보.
 
 ### 🎞️ Computer Vision & Sequential AI
 #### ⛳️ [SwingNet V2: Video Action Detection & HPE](https://github.com/yeon-0-im/SwingNetV2)  ![Status](https://img.shields.io/badge/Status-🏅%20구현%20완료-4CAF50?style=flat-square)
@@ -59,4 +64,5 @@ The technologies below range from core focus areas to tools I have hands-on expe
 #### 🚯 서울시 생활쓰레기 무단투기 발생환경 분석 🏅 ![Status](https://img.shields.io/badge/Status-🏅%20분석%20및%20발표%20완료-9C27B0?style=flat-square)
 * **도메인:** 공공·재정 데이터 기반 통계 분석 및 GIS 공간 시각화 
 * **핵심 Task:** 자치구별 행정·공간 예산 집행 데이터 정제 및 피어슨 상관계수를 활용한 변인 통제 가설 검정. `QGIS` 좌표 매핑 기술을 이용해 CCTV 및 가로 쓰레기통 설치 공간 정보 분석 및 위험 구역 시각화 지표 개발.
+
 
